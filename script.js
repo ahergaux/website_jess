@@ -1,5 +1,5 @@
 function afficherSelection() {
-    const date = document.querySelectorAll('input[name="activity"]:checked');
+    const date = document.querySelectorAll('input[name="date"]:checked');
     const checkboxes = document.querySelectorAll('input[name="activity"]:checked');
     const resultat = document.getElementById('resultat');
     
